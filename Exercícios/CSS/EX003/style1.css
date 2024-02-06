@@ -1,0 +1,13 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Love ;
+    src: url(Create\ Dream.otf) format("Opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+    font-family: Love;
+    font-size: 3em;
+    color: rgb(5, 120, 155);
+}

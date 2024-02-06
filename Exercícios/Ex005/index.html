@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+    <link rel="shortcut icon" href="https://64.media.tumblr.com/0cd93f5fe9d85eba32869fadf703c3af/tumblr_otrb62l3jC1wsu9gto1_640.jpg" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir este site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pequeno.png" type="image/png"> <!--Por configuração, essa tag vem com min-width-->
+        <source media="(max-width: 1050px)" srcset="imagens/média.png" type="image/png"> <!--Quando a tag source é colocada, você pode dimensionar como será visto a imagem no navegador, dentro do max-width coloque o tamanho acima da largura e comprimento, pra não ficar uma rolagem lateral, no srcset você vai colocar a imagem de tamanho menor do que a grande, ou seja, a média. Ela irá se adaptar a largura do navegador-->
+        <img src="imagens/grande.png" alt="imagem flexível"> <!--Se colocar só assim, vai ficar gigante. Tag source-->
+    </picture>
+</body>
+</html>

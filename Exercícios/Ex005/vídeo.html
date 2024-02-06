@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos em site</title>
+</head>
+<body>
+    <h1>Vídeos em site</h1>
+    <!--Formatos mais aceitados, MP4, MP4V, MM, OGGV, Programa Handbrake diminuir o tamanho dos vídeos-->
+    <!--É recomendado ter vídeos em vários formatos, porque os navegadores não são compatíveis com todos os formatos, assim como imagem-->
+    <p>Esse vídeo está hospedado no meu próprio servidor</p>
+    <video src="media/pexels-pok-rie-19518666 (720p).mp4" width="500" controls></video><!--Essa função controls é compatível com o chrome, mas a forma com ele é visualizado no navegador é exclusiva dele. Importante sempre olhar o width-->
+
+    <video width="500" controls> <!--Esse parâmetro poster funciona para colocar a capa nos vídeos-->
+        <source src="media/pexels-pok-rie-19518666 (720p).mp4" type="video/mp4">
+        <source src="media/pexels-pok-rie-19518666 (720p).mp4" type="video/mp4">
+        <source src="media/pexels-pok-rie-19518666 (720p).mp4" type="video/mp4"><!--Obviamente, esse formato funciona quando tem outros formatos de arquivo, importante colocar todos para garantir que irá rodar em todos-->
+        <source src="media/pexels-pok-rie-19518666 (720p).mp4" type="video/mp4"> 
+        <p>Seu navegador não é compatível com o formato do arquivo de mídia</p>
+    </video>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/B0MBnDalSfY?si=B4ZII0H0-Utsho3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <!--Só jogar o código do youtube em incorporar-->
+
+    <p><a href="desafio9.html">Retorne para página inicial</a></p>
+
+    
+</body>
+</html>

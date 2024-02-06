@@ -1,0 +1,8 @@
+body{
+    background-image: linear-gradient(to top, #6F7FC9 35%, #14506B, #00146C); /*to right é a direção que vai ir o gradiente, pode ser to top ou left enfim, até mesmo 45deg que é o angulo 45º, tem outros modelos alem do linear como radial-gradient, e precisa colocar linear-gradient, o tamanho vai ser ajustado em height. Além disso dá pra colocar a porcentagem que tal cor aparece*/
+    background-attachment: fixed; /*Serve para não deixar o degrade rolar pela dela.*/
+}
+
+*{ /* *{ é a configuração global das css*/
+    height: 100%;
+}

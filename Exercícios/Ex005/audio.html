@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Áudio no site</title>
+</head>
+<body>
+    <h1>Áudio no site</h1>
+    <p>Vamos aprender a reproduzir áudios em html</p>
+    <audio src="media/Helium - TrackTribe.mp3" controls autoplay></audio> <!--o parâmetro autoplay ele começa a tocar sozinho, mas geralmente precisa incluir o parametro controls para aparecer na tela, compativel com formatos MP3, wAv e OGG-->
+
+    <audio preload="auto" autoplay controls loop> <!--Essa outra forma de colocar audio, para que possa ser reproduzido em diferentes formatos, ORDEM IMPORTA TAMBÉM. ele vai começar a testar de cima pra baixo-->
+        <source src="media/Helium - TrackTribe.mp3" type="audio/mpeg">
+        <source src="media/Helium - TrackTribe.mp3" type="audio/ogg">
+        <source src="media/Helium - TrackTribe.mp3" type="audio/wav"><!--Tenta evitar esse tipo de arquivo pois é pesado-->
+        <p>Infelizmente seu navegador não consegue produzir áudio, <a href="media/Helium - TrackTribe.mp3">clique aqui</a> para baixar o arquivo</p>
+    </audio>
+    
+</body>
+</html>

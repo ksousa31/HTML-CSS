@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+header{
+    height: auto;
+    background-color: blueviolet;
+
+}
+
+body{
+    font: normal 16px arial, verdana, serif;
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-indent: 25px;
+}

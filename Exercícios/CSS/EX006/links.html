@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: violet;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{ /*vai ficar azul se o site já foi visitado pelo usuário*/
+            color:blue
+        }
+
+        a:hover{ /*quando passar o mousse por cima ai vai ficar sublinhado*/
+            text-decoration: underline;
+            color: black;
+        }
+
+        a:active{ /*vai mudar de cor apenas no momento de clicar */
+            color: aqua;
+        }
+
+        a::after{ /*vai adicionar algum elemento depois do link, o mesmo acontece para before */
+            content: '[Link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgrey;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://br.pinterest.com/" target="_blank">Spencer reid</a href></li>
+
+        <li><a href="https://br.pinterest.com/">Roman Kitt</href></li>
+
+        <li><a href="https://br.pinterest.com/">Cardan Greenbriar</href></li>
+    </ul>
+</body>
+</html>

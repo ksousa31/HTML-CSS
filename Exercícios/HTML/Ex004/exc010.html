@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas Ol e UL</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1> <!--Mais trabalhado em menus-->
+    <p><a href="exc011.html" rel="prev">voltar para o menu</a></p>
+    <h2>Listas ordenadas</h2>
+    <ol type="1" start="4"> <!--Aqui vai ordenar as próximas li-->
+        <li>Acordar</li> <!--Aqui vai numerar, entretanto não é obrigatório a tag de fechamento-->
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Lavar roupa</li>
+    </ol>
+    <ol type="i"> <!--Aqui vai ordenar as próximas li, o parametro type deixa que você escolha se é por ordem númerica, alfabetica ou numeros romanos-->
+        <li>Acordar</li> <!--Aqui vai numerar, entretanto não é obrigatório a tag de fechamento-->
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Lavar roupa</li>
+        <li>Ir para faculdade</li>
+        <li>Voltar para casa</li>
+    </ol>
+    <h2>Listas não ordenadas</h2>
+    <ul type="disc"> <!--Ai é so bolinhas, quadrados ou disco-->
+        <li>Pão</li>
+        <li>Tomate</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="4"> <!--Atenção, o parametro start só responde valores numericos, então se você quer começar a lista a partir da letra e, por exemplo, deve indicar a posição dela no alfabeto -->
+            <li>Python</li>
+            <li>Javascript</li>
+        </ol>
+
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>VideoGames favoritos</li>
+        <ul type="square">
+            <li>Sonic</li>
+            <ul>
+                <li type="circle">Sonic Boom</li>
+            </ul>
+            <li>Red</li>
+            <li>Free fire</li>
+        </ul>
+        <li>Meus jogos que eu não jogo mais </li>
+        <ul type="square">
+            <li>Barbie</li>
+        </ul>
+
+    </ol>
+
+    <h2>Lista de definição</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site</dd> <!--Por mais que isso possa ser desenvolvido em CSS, os navegadores de busca prezam por lista com definição-->
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site</dd>
+    </dl>
+</body>
+</html>

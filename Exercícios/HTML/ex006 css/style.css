@@ -1,0 +1,19 @@
+@charset "UTF-8"; /*Serve como regra, sempre no início do arquivo CSS, pode colocar no vários css no html */
+
+
+body{
+    background-color: rgb(69, 133, 216);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+
+h2{
+    text-align: center;
+    color: rgb(96, 192, 160);
+}
